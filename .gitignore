@@ -1,0 +1,41 @@
+# --- Environment & Secrets ---
+.env
+.env.example
+
+Makefile
+
+# --- Go build artifacts ---
+/campusai
+/campusai.exe
+/bin/
+/tmp/
+
+# --- IDE/Editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Uploaded documents (local storage) ---
+/uploads/
+
+# --- Test artifacts ---
+/coverage.out
+/coverage.html
+
+# --- Docker ---
+docker-compose.override.yml
+
+
+#Folder
+cmd
+internal
+pkg
+
+#Miscellaneous
+miscellaneous
