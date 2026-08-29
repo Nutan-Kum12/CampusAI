@@ -34,8 +34,18 @@ docker-compose.override.yml
 
 #Folder
 cmd
-internal
+internal/api
+internal/config
+internal/database
+internal/model
+internal/repository
+internal/service
+internal/logger
+internal/dto
+internal/auth
 pkg
+config
+migrations
 
 #Miscellaneous
 miscellaneous
