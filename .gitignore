@@ -44,7 +44,7 @@ internal/logger
 internal/dto
 internal/auth
 pkg
-config
+# config
 migrations
 
 #Miscellaneous

@@ -1,0 +1,26 @@
+# CampusAI — Application Configuration
+server:
+  port: 8080
+  host: 0.0.0.0        # 0.0.0.0 binds to all interfaces (required for Docker)
+  env: development      # development | staging | production
+
+# PostgreSQL — relational data: users, documents metadata, conversations, messages
+database:
+  host: localhost
+  port: 5432
+  user: campusai
+  password: campusai    # override with CAMPUSAI_DATABASE_PASSWORD env var in production
+  name: campusai
+  ssl_mode: disable     # use "require" for AWS RDS
+
+jwt:
+  access_secret: "dev-access-secret-change-in-production"
+  refresh_secret: "dev-refresh-secret-change-in-production"
+  access_ttl: 15m
+  refresh_ttl: 168h
+
+# Redis — rate limiting, FAQ caching
+redis:
+  addr: localhost:6379
+  password: ""         
+  db: 0                 
