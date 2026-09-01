@@ -43,8 +43,6 @@ internal/service
 # internal/logger
 internal/dto
 internal/auth
-pkg
-# config
 migrations
 
 #Miscellaneous
