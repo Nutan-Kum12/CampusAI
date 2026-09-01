@@ -38,7 +38,7 @@ internal/api/handler
 internal/api/routes.go
 internal/api/middleware/auth_middleware.go
 internal/config
-internal/database
+# internal/database
 internal/model
 internal/repository
 internal/service
