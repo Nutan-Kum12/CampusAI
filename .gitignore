@@ -45,7 +45,7 @@ internal/service
 # internal/logger
 internal/dto
 internal/auth
-migrations
+# migrations
 
 #Miscellaneous
 miscellaneous
