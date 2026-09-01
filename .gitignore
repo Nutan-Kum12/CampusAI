@@ -40,7 +40,7 @@ internal/database
 internal/model
 internal/repository
 internal/service
-internal/logger
+# internal/logger
 internal/dto
 internal/auth
 pkg
